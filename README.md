@@ -10,10 +10,10 @@ A web application that allows users to view, add, edit, and delete user details 
   The application will be accessible at http://localhost:3000.
 
 **API Reference**
-# Base URL: https://usermanagementdashboard-ten.vercel.app/
+*Base URL: https://usermanagementdashboard-ten.vercel.app/*
 Endpoints:
-GET /users - Fetch all users
-POST /addUser - Add a new user
-PUT /updateUser/:id - Update an existing user
-DELETE /deleteUser/:id - Delete a user
+1) GET /users - Fetch all users,
+2) POST /addUser - Add a new user,
+3) PUT /updateUser/:id - Update an existing user,
+4) DELETE /deleteUser/:id - Delete a user
 
