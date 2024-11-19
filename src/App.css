@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.bg-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  height: 100vh;
+  margin-top: 100px;
+  width:100%;
+  
+}
+/* .bg-Home{
+  /* padding:100px; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+ 
+  /* margin-top:40%; */
+.bg-Home h2{
+  padding-bottom: 10px;
+}
+ 
+  
+
+.userDetails{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  gap:20px;
+}
+.eachUserDetailsCard{
+  border:1px solid #ccc;
+  padding:10px;
+  position: relative;
+
+}
+.eachUserDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  
+}
+.eachUserDetails p{
+  
+  margin: 3px;
+}
+
+.editAndDeleteBtns{
+  
+
+  position: absolute;
+  right:0;
+  bottom:0;
+
+ 
+  
+}
+.editAndDeleteBtns button{
+  margin: 10px !important;
+  background-color: #C9E6F0;
+}
+
+
+/*Form css*/
+
+.formContainer {
+  width:45%;
+  margin:10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-height:500px;
+  
+  
+}
+
+
+.formContainer h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+
+form label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
+form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+
+form input::placeholder {
+  color: #aaa;
+}
+
+
+form input:hover,
+form input:focus {
+  border-color: #007bff;
+}
+
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 765px) {
+  .bg-container{
+    width: 100%; 
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .formContainer{
+    width:90%;
+    margin-top: 50px;
+  }
+}
+
+
+
+

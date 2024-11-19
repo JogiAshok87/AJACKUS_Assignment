@@ -1,0 +1,13 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding:25px 50px 25px 50px;
+    align-items: center;
+    background-color: aquamarine;
+    width:100%;
+   
+    position: absolute;
+    top:0px;
+   
+}
