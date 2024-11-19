@@ -1,5 +1,5 @@
 **User Management Dashboard**
-A web application that allows users to view, add, edit, and delete user details by interacting with a mock backend API.
+A web application that allows users to view, add, edit, and delete user details by interacting with a  backend API.
 
 ## **GitHub Repository**
 [**View the Repository**](https://github.com/JogiAshok87/AJACKUS_Assignment.git)
@@ -16,7 +16,7 @@ You can check out the live deployment of the project here:
 
   The application will be accessible at http://localhost:3000.
 
-**API Reference**
+# **API Reference**
 *Base URL: https://usermanagementdashboard-ten.vercel.app/*
 Endpoints:
 1) GET /users - Fetch all users,
