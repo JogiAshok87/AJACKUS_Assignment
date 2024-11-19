@@ -1,6 +1,13 @@
 **User Management Dashboard**
 A web application that allows users to view, add, edit, and delete user details by interacting with a mock backend API.
 
+## **GitHub Repository**
+[**View the Repository**](https://github.com/JogiAshok87/AJACKUS_Assignment.git)
+
+## **Live Demo**
+You can check out the live deployment of the project here:  
+[**User Management Dashboard**](https://usermanagementdashboard-ten.vercel.app/)
+
 # Install Dependencies
   npm install
 
