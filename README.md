@@ -1,8 +1,19 @@
-# React + Vite
+**User Management Dashboard**
+A web application that allows users to view, add, edit, and delete user details by interacting with a mock backend API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Install Dependencies
+  npm install
 
-Currently, two official plugins are available:
+# Start the development server:
+  npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  The application will be accessible at http://localhost:3000.
+
+**API Reference**
+# Base URL: https://usermanagementdashboard-ten.vercel.app/
+Endpoints:
+GET /users - Fetch all users
+POST /addUser - Add a new user
+PUT /updateUser/:id - Update an existing user
+DELETE /deleteUser/:id - Delete a user
+
