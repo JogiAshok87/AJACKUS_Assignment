@@ -110,7 +110,7 @@ useEffect(()=>{
     <div className='bg-container'>
     <div className='bg-Home'>
         <h2>User Management Dashboard</h2>
-        <div className='userDetails'> 
+        {usersData.length==0 ? (<div>Loading...</div>):( <div className='userDetails'> 
             {usersData.map((eachUser,index)=>(
                 <div key={index} className='eachUserDetailsCard'>
                     <div className='eachUserDetails'>
@@ -127,7 +127,8 @@ useEffect(()=>{
 
                 </div>
             ))}
-        </div>
+        </div>)}
+       
     </div>
     <div className='formContainer'>
         <h1>Add User or Edit user Details</h1>
